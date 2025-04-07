@@ -51,7 +51,7 @@ author_profile: true
   </div>
 
    <div class="team-member">
-    <img src="/assets/images/rufael.jpg" alt="Rufael Marew">
+    <img src="/assets/images/rufael.JPG" alt="Rufael Marew">
     <h2>Rufael Marew</h2>
     <p>Research Assistant</p>
     <div class="team-links">
