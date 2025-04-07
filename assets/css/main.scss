@@ -1,0 +1,25 @@
+
+.author__avatar {
+    border: none;
+    border-radius: 0; /* Remove circular crop */
+    box-shadow: none;
+  }
+
+  .bibtex-toggle {
+    cursor: pointer;
+    color: #2a7ae2;
+  }
+  
+  .bibtex-box {
+    display: none;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 0.85em;
+    white-space: pre;
+    overflow-x: auto; /* 👈 enables scroll */
+    margin-top: 0.5em;
+  }
+  
+  

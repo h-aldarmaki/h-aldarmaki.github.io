@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.author__avatar {
+    border: none;
+    border-radius: 0; /* Remove circular crop */
+    box-shadow: none;
+  }
+
+  .bibtex-toggle {
+    cursor: pointer;
+    color: #2a7ae2;
+  }
+  
+  .bibtex-box {
+    display: none;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 0.85em;
+    white-space: pre;
+    margin-top: 0.5em;
+  }
+  

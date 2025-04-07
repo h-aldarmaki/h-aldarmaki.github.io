@@ -1,0 +1,101 @@
+
+.author__avatar {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  min-width: 100px;
+}
+
+
+.author__avatar img {
+  border-radius: 50;
+  border: none
+}
+
+
+.page .page__title{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 2rem; 
+}
+
+
+
+.sidebar__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 5em;
+}
+.sidebar {
+  position: sticky;
+  bottom: 2em; /* Stick to bottom instead of top */
+  top: unset !important;
+  padding-left: 20px;
+}
+
+.bibtex-box {
+  display: none;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 0.85em;
+  white-space: pre;
+  overflow-x: auto; /* 👈 enables scroll */
+  margin-top: 0.5em;
+}
+
+
+.bibtex-toggle {
+  color: #2a7ae2;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.bibtex-toggle:hover {
+  background-color: #eaf0fc;
+}
+
+.pub-link {
+  color: #2a7ae2;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.pub-link:hover {
+  background-color: #eaf0fc;
+  text-decoration-color: #8a0303;
+}
+.pub-link:visited {
+  color: #8a0303;
+}
+
+
+.page__content h2 {
+  color: #000000; /* Keep it black */
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 2em;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+
+.page__content h3 {
+  color: #000000; /* Keep it black */
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin-top: em;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+}
+

@@ -1,9 +1,13 @@
 main:
+  - title: "People"
+    url: /team/
+  - title: "Projects"
+    url: /projects/
+  - title: "Papers"
+    url: /publications/
+  - title: "Datasets"
+    url: /datasets/
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
