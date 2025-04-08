@@ -47,7 +47,7 @@ $$
 [A, A, NP, A, B, A, A, B, NP, A]
 $$
 
-The proportion of raters who selected <a style="color:Tomato">A</a>, B, and NP, is <a style="color:Tomato">$6/10=0.6$</a>, $0.2$, and $0.2$, respectively. This means that for this sample, more than half the listeners prefer system A.<br>
+The proportion of raters who selected <a style="color:Tomato">A</a>, B, and NP for sample 1, is <a style="color:Tomato">$p_1^A=6/10=0.6$</a>, $p_1^B=0.2$, and $p_1^{NP}=0.2$, respectively. This means that for sample 1, more than half the listeners prefer system A.<br>
 
 Once we calculate the proportions for all 20 samples, we will have 20 proportions for each category. We can now utilize the Central Limit Theorem to estimate confidence intervals:
 </div>
