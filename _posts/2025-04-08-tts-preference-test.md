@@ -50,9 +50,11 @@ $$
 The proportion of raters who selected <a style="color:Tomato">A</a>, B, and NP, is <a style="color:Tomato">$6/10=0.6$</a>, $0.2$, and $0.2$, respectively. This means that for this sample, more than half the listeners prefer system A.<br>
 
 Once we calculate the proportions for all 20 samples, we will have 20 proportions for each category. We can now utilize the Central Limit Theorem to estimate confidence intervals:
+</div>
 
-> <strong>Central Limit Theorem:</strong> The distribution of sample means approaches the normal distribution as the sample size increases, regardless of the population distribution. 
-
+> <strong>Central Limit Theorem:</strong> The distribution of sample means approaches the normal distribution as the sample size increases, regardless of the population distribution.
+> 
+<div>
 What this means is that that sample means (i.e., a sample of 10 ratings) will be approximately normally distributed, with mean equal to the true population mean (i.e., the mean of all possible ratings). We can therefore calculate the means of the ratings for each category and calculate confidence intervals using the normal distribution. However, since our sample size is relatively small, Student's t-distribution provides a better estimate of the confidence interval. 
 
 To proceed, we first calculate the mean proportion for each category; for example, for category A, we have the 20 proportions calculated by averaging the ratings for that sample: $\{ p_1^A,  p_2^A, ... ,  p_{20}^A\}$. We calculate the mean proportion (with n=20): 
