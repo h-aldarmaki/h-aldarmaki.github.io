@@ -57,7 +57,7 @@ Once we calculate the proportions for all 20 samples, we will have 20 proportion
 <div style="font-size: 16px; text-align: justify;">
 What this means is that that sample means (i.e., a sample of 10 ratings) will be approximately normally distributed, with mean equal to the true population mean (i.e., the mean of all possible ratings). We can therefore calculate the means of the ratings for each category and calculate confidence intervals using the normal distribution. However, since our sample size is relatively small, Student's t-distribution provides a better estimate of the confidence interval. 
 
-To proceed, we first calculate the mean proportion for each category; for example, for category A, we have the 20 proportions calculated by averaging the ratings for that sample: $\{ p_1^A,  p_2^A, ... ,  p_{20}^A\}$. We calculate the mean proportion (with n=20): 
+To proceed, we first calculate the mean proportion for each category; for example, for category A, we have the 20 proportions calculated by averaging the 10 ratings for each sample: $\{ p_1^A,  p_2^A, ... ,  p_{20}^A\}$. We calculate the mean proportion (with n=20): 
 
 $$
 \bar{p}^A = \frac{1}{n} \sum_{i=1}^{n} p_i^A
