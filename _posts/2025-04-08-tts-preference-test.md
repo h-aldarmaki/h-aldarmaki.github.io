@@ -53,7 +53,7 @@ Once we calculate the proportions for all 20 samples, we will have 20 proportion
 </div>
 
 > <strong>Central Limit Theorem:</strong> The distribution of sample means approaches the normal distribution as the sample size increases, regardless of the population distribution.
-> 
+
 <div>
 What this means is that that sample means (i.e., a sample of 10 ratings) will be approximately normally distributed, with mean equal to the true population mean (i.e., the mean of all possible ratings). We can therefore calculate the means of the ratings for each category and calculate confidence intervals using the normal distribution. However, since our sample size is relatively small, Student's t-distribution provides a better estimate of the confidence interval. 
 
