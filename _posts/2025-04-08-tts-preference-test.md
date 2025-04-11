@@ -12,6 +12,9 @@ comments: true
 toc: true
 toc_sticky: true
 use_math: true
+categories: tutorials
+image: /assets/images/posts/tts_eval.jpg
+excerpt: "Detailed description of how we set up TTS preference tests. "
 author: Hanan Aldarmaki
 ---
 
