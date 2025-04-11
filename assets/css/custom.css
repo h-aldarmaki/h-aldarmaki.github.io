@@ -80,7 +80,7 @@
 }
 
 
-.page__content h2 {
+.page__content h2, .archive h2 {
   color: #000000; /* Keep it black */
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
@@ -90,7 +90,7 @@
 }
 
 
-.page__content h3 {
+.page__content h3, .archive h3 {
   color: #000000; /* Keep it black */
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
