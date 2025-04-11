@@ -12,6 +12,8 @@ comments: true
 toc: true
 toc_sticky: true
 image: /assets/images/artst.jpg
+image: /assets/images/artst.jpg
+exerpt: "Overview of our Arabic speech processing research projects."
 ---
 
 <div>
