@@ -1,7 +1,7 @@
 ---
 title: "ArTST: Unified Arabic Speech Recognition and Synthesis Models" # Slightly more descriptive title
 date: 2024-04-06
-last_modified_at: 2024-04-06
+last_modified_at: 2024-04-27
 categories: projects
 tags: [arabic, asr, tts, speecht5, artst, huggingface, speech recognition, text to speech, natural language processing, ai, mbzuai] # Expanded tags
 layout: single
