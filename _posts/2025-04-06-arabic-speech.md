@@ -75,7 +75,7 @@ After pre-training, we further train (or "fine-tune") these ArTST models to make
 | [MBZUAI/artst_asr_v3](https://huggingface.co/MBZUAI/artst_asr_v3)                 | v3 (Multilingual Pre-trained)  | MGB2 dataset (MSA)                      | ASR   |
 | [MBZUAI/artst_asr_v2_qasr](https://huggingface.co/MBZUAI/artst_asr_v2_qasr)       | v2 (Dialectal Pre-trained)     | QASR dataset (Dialectal/MSA)            | ASR   |
 | [MBZUAI/artst_asr_v3_qasr](https://huggingface.co/MBZUAI/artst_asr_v3_qasr)       | v3 (Multilingual Pre-trained)  | QASR dataset (Dialectal/MSA)            | ASR   |
-| [MBZUAI/artst_asr_v3_qasr](https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar) | v1 (MSA Pre-trained)     | MGB2 + ClArTTS dataset (MSA)            | TTS   |
+| [MBZUAI/speecht5_tts_clartts_ar](https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar) | v1 (MSA Pre-trained)     | MGB2 + ClArTTS dataset (MSA)            | TTS   |
 
 
 <div style="font-size: 16px; text-align: justify;">
