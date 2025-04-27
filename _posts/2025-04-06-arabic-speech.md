@@ -38,16 +38,17 @@ We've released several ArTST versions, each pre-trained and optimized for differ
 
 | Version  | Pre-training Data Focus          | Key Highlight                                    | Recommended Use Case                      |
 | :------- | :------------------------------- | :----------------------------------------------- | :---------------------------------------- |
-| **v1**   | Modern Standard Arabic (MSA)     | Foundational MSA model (12.8% WER on MGB2)       | High-quality MSA ASR/TTS (undiacritized)   |
-| **v2**   | MSA + Arabic Dialects (11+)      | Best average dialectal ASR performance           | General Dialectal ASR                     |
-| **v3**   | MSA + Dialects + EN/FR           | Handles Arabic-EN/FR <strong>code-switching</strong>          | Code-Switching ASR                        |
-| **v1.5** | MSA + <strong>Diacritized</strong> Text       | Optimized for tasks requiring diacritics         | High-quality Diacritized MSA TTS         |
+| <span class="tooltip" data-tooltip="Pre-trained ~1k hrs MSA (MGB2)">**v1**</span>   | Modern Standard Arabic (MSA)     | Foundational MSA model (12.8% WER on MGB2)       | High-quality MSA ASR/TTS (undiacritized)   |
+| <span class="tooltip" data-tooltip="Pre-trained ~3k hrs MSA + 11+ Dialects (MGB2, QASR, MGB3, MGB5, CommonVoice, etc.)">**v2**</span>   | MSA + Arabic Dialects (11+)      | Best average dialectal ASR performance           | General Dialectal ASR                     |
+| <span class="tooltip" data-tooltip="Pre-trained like v2 + VoxBlink data + English/French data (CommonVoice)">**v3**</span>   | MSA + Dialects + EN/FR           | Handles Arabic-EN/FR <strong>code-switching</strong>          | Code-Switching ASR                        |
+| <span class="tooltip" data-tooltip="Pre-trained ~1k hrs MSA (MGB2 audio + Tashkeela text)">**v1.5**</span> | MSA + <strong>Diacritized</strong> Text       | Optimized for tasks requiring diacritics         | High-quality Diacritized MSA TTS         |
 
 <div style="font-size: 16px; text-align: justify;">
 In essence: use <strong>v1</strong> or <strong>v2</strong> for MSA tasks, <strong>v2</strong> for general dialectal ASR, <strong>v3</strong> if you expect code-switching with English or French, and <strong>v1.5</strong> for high-fidelity diacritized TTS.
 </div>
 
 ## Getting Started with ArTST
+
 [![Star History Chart](https://api.star-history.com/svg?repos=mbzuai-nlp/ArTST&type=Date)](https://www.star-history.com/#mbzuai-nlp/ArTST&Date)
 <div style="font-size: 16px; text-align: justify;">
 Our pre-trained models are available on the Hugging Face Hub, making them easy to integrate into your projects.
@@ -55,13 +56,34 @@ Our pre-trained models are available on the Hugging Face Hub, making them easy t
 
 <div style="margin-top: 20px; margin-bottom: 25px; text-align: center;">
   <a href="https://github.com/mbzuai-nlp/ArTST" class="btn btn--github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View ArTST on GitHub</a>
-  <a href="https://huggingface.co/models?search=mbzuai-nlp/artst" class="btn btn--info" target="_blank" rel="noopener noreferrer"><i class="fas fa-box-open"></i> Find ArTST Models on Hugging Face Hub</a>
+  <a href="https://huggingface.co/collections/MBZUAI/artst-arabic-text-speech-transformer-672cb44bb4215fd38814aeef" class="btn btn--info" target="_blank" rel="noopener noreferrer"><i class="fas fa-box-open"></i> Find ArTST Models on Hugging Face Hub</a>
 </div>
 
-### Using ArTST with Hugging Face `transformers`
+### ArTST Usage
 
 <div style="font-size: 16px; text-align: justify;">
-The <code class="language-plaintext highlighter-rouge">transformers</code> library provides the most convenient way to use ArTST for inference. Below are examples for ASR and TTS.
+After pre-training, we further train (or "fine-tune") these ArTST models to make them specialized for specific tasks like turning speech into text Automatic Speech Recognition (ASR) or text into speech (TTS). Fine-tuning uses labeled data (like audio paired with its transcription for ASR, or text paired with its spoken version for TTS) to adjust the pre-trained model. For ASR, we train the model to output the correct text transcription for a given audio input. For TTS, we train it to generate natural-sounding speech audio from given text input. Here are some of our main fine-tuned ASR models available on the Hugging Face Hub:
+</div>
+
+<div style="margin-top: 20px;"></div>
+
+
+| Version (Fine-tuned Model ID)                                               | Based On (Pre-trained)           | Fine-tuning Focus                         | Task     |
+| :-------------------------------------------------------------------------- | :------------------------------- | :---------------------------------------- |:---------|
+| [MBZUAI/artst_asr](https://huggingface.co/MBZUAI/artst_asr)                       | v1 (MSA Pre-trained)           | MGB2 dataset (MSA)                      | ASR   |
+| [MBZUAI/artst_asr_v2](https://huggingface.co/MBZUAI/artst_asr_v2)                 | v2 (Dialectal Pre-trained)     | MGB2 dataset (MSA)                      | ASR   |
+| [MBZUAI/artst_asr_v3](https://huggingface.co/MBZUAI/artst_asr_v3)                 | v3 (Multilingual Pre-trained)  | MGB2 dataset (MSA)                      | ASR   |
+| [MBZUAI/artst_asr_v2_qasr](https://huggingface.co/MBZUAI/artst_asr_v2_qasr)       | v2 (Dialectal Pre-trained)     | QASR dataset (Dialectal/MSA)            | ASR   |
+| [MBZUAI/artst_asr_v3_qasr](https://huggingface.co/MBZUAI/artst_asr_v3_qasr)       | v3 (Multilingual Pre-trained)  | QASR dataset (Dialectal/MSA)            | ASR   |
+| [MBZUAI/artst_asr_v3_qasr](https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar) | v1 (MSA Pre-trained)     | MGB2 + ClArTTS dataset (MSA)            | TTS   |
+
+
+<div style="font-size: 16px; text-align: justify;">
+The easiest way to use these fine-tuned models is with the Hugging Face <code class="language-plaintext highlighter-rouge">transformers</code> library, like in the examples below. If you need to use the Fairseq toolkit methods shown in our papers, you can find code examples in our GitHub demo notebooks:
+<ul>
+    <li><a href="https://github.com/mbzuai-nlp/ArTST/blob/main/demo-artst-asr.ipynb" target="_blank" rel="noopener noreferrer">ArTST ASR Demo Notebook</a></li>
+    <li><a href="https://github.com/mbzuai-nlp/ArTST/blob/main/demo-artst-tts.ipynb" target="_blank" rel="noopener noreferrer">ArTST TTS Demo Notebook</a></li>
+</ul>
 </div>
 
 #### Example: Automatic Speech Recognition (ASR)
@@ -79,7 +101,7 @@ import os
 
 # --- Configuration ---
 # 1. Select the appropriate ArTST ASR model ID from Hugging Face Hub
-#    Example: Using v2 for general dialectal ASR. Find more: https://huggingface.co/models?search=mbzuai-nlp/artst
+#    Example: Using v1 for MSA ASR. Find more: https://huggingface.co/collections/MBZUAI/artst-arabic-text-speech-transformer-672cb44bb4215fd38814aeef
 model_id = "MBZUAI/artst_asr" 
 
 # 2. Specify the path to your audio file
@@ -132,7 +154,6 @@ if speech is not None:
     # Chunking is recommended for long audio files to manage memory
     transcription_result = asr_pipeline(
         speech.copy(), # Pass a copy if you need the original array later
-        chunk_length_s=30, # Process audio in 30-second chunks
         stride_length_s=(5, 0) # Overlap chunks slightly (5s here) for smoother transcription
     )
     
@@ -164,9 +185,7 @@ model_id = "MBZUAI/speecht5_tts_clartts_ar"
 vocoder_id = "microsoft/speecht5_hifigan" # Standard HiFi-GAN vocoder for SpeechT5
 
 # 2. Input text (use diacritized text for v1.5)
-text_input = "السَّلامُ عَلَيْكُمْ، أَهْلاً بِكُمْ فِي مُخْتَبَرِ الكَلامِ." 
-# For non-diacritized models (e.g., fine-tuned from v1), use undiacritized text:
-# text_input = "السلام عليكم، أهلاً بكم في مختبر الكلام."
+text_input = "لأنه لا يرى أنه على السفه ثم من بعد ذلك حديث منتشر" 
 
 # 3. Output audio file path
 output_filename = "artst_tts_output.wav"
@@ -195,9 +214,9 @@ print("Loading speaker embeddings (required by SpeechT5)...")
 try:
     # Using a standard English dataset for embeddings; quality may vary for Arabic.
     # Fine-tuning with Arabic speaker embeddings would yield better results.
-    embeddings_dataset = load_dataset("Matthijs/cmu-arctic-xvectors", split="validation", trust_remote_code=True)
+    embeddings_dataset = load_dataset("herwoww/arabic_xvector_embeddings", split="validation")
     # Example speaker embedding (index 7306: female US English). Experiment with different indices.
-    speaker_embeddings = torch.tensor(embeddings_dataset[7306]["xvector"]).unsqueeze(0).to(device) 
+    speaker_embeddings = torch.tensor(embeddings_dataset[105]["speaker_embeddings"]).unsqueeze(0).to(device) 
     print("Speaker embeddings loaded.")
 except Exception as e:
     print(f"Warning: Could not load speaker embeddings dataset: {e}. Using random embeddings as fallback.")
