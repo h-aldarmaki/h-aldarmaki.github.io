@@ -92,7 +92,7 @@ The easiest way to use these fine-tuned models is with the Hugging Face <code cl
 #### Example: Automatic Speech Recognition (ASR)
 
 <div style="font-size: 16px; text-align: justify;">
-This snippet shows how to transcribe an Arabic audio file using a dialectal ArTST model (v2). Remember to install necessary libraries: <code class="language-plaintext highlighter-rouge">pip install transformers torch datasets soundfile librosa</code>.
+This snippet shows how to transcribe an Arabic audio file using a dialectal ArTST model (v1). Remember to install necessary libraries: <code class="language-plaintext highlighter-rouge">pip install transformers torch datasets soundfile librosa</code>.
 </div>
 
 {% highlight python %}
@@ -171,7 +171,7 @@ else:
 #### Example: Text-to-Speech (TTS)
 
 <div style="font-size: 16px; text-align: justify;">
-This snippet demonstrates generating speech from Arabic text using the diacritic-aware ArTST v1.5 model. Ensure libraries are installed: <code class="language-plaintext highlighter-rouge">pip install transformers datasets torch soundfile</code>.
+This snippet demonstrates generating speech from Arabic text using the ArTST* v1 model. Ensure libraries are installed: <code class="language-plaintext highlighter-rouge">pip install transformers datasets torch soundfile</code>.
 </div>
 
 {% highlight python %}
