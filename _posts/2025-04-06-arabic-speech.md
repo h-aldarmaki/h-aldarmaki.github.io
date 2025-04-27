@@ -20,17 +20,20 @@ author: Amir Djanibekov
 </div>
 
 <div style="font-size: 16px; text-align: justify;">
-The Arabic language presents unique challenges for speech technology due to its vast dialectal diversity and the common phenomenon of code-switching. While large multilingual models offer broad language coverage, they often fall short of optimal performance for specific, resource-rich languages like Arabic compared to dedicated models.
+The Arabic language presents unique challenges for speech technology due to its vast dialectal diversity and the common phenomenon of code-switching. While large multilingual models offer broad language coverage, they often fall short of optimal performance for specific, resource-rich languages like Arabic compared to dedicated models.<br>
 </div>
-<div style="font-size: 16px; text-align: justify;">
+<!-- <div style="font-size: 16px; text-align: justify;">
   To address this, our group at the Speech Lab developed the <a href="https://github.com/mbzuai-nlp/ArTST" target="_blank" rel="noopener noreferrer"><strong>Arabic Speech and Text Transformer (ArTST)</strong></a>. ArTST is built on the principle that high performance requires models trained <em>specifically</em> for Arabic's nuances from the outset. This post provides an overview of the ArTST project, its different versions tailored for various tasks (MSA, dialects, code-switching, diacritics), key research findings, and practical examples of how to use our models.
-</div>
+</div> -->
 
 <div style="font-size: 16px; text-align: justify;">
-ArTST utilizes the powerful <a href="https://huggingface.co/docs/transformers/en/model_doc/speecht5" target="_blank" rel="noopener noreferrer"><strong>SpeechT5</strong></a> architecture, notable for its unified multi-modal pre-training approach. It can handle both speech and text as input <em>and</em> output, allowing a single pre-trained foundation model to be effectively fine-tuned for diverse tasks like Automatic Speech Recognition (<strong>ASR</strong>) and Text-to-Speech (<strong>TTS</strong>). This offers flexibility compared to many frameworks limited to a single output modality. The architecture is detailed in Figure 1 of our <a href="https://aclanthology.org/2023.arabicnlp-1.5.pdf" target="_blank" rel="noopener noreferrer"><strong>Best Paper award-winning work at ArabicNLP 2023</strong></a>.
+<p> Our group is developing various datasets and models for supporting Arabic speech processing, such as Automatic Speech Recognition (ASR), Text-to-Speech synthesis (TTS), and diacritic restoration. We try to widen coverage of spoken varieties by including regional dialects and code-switching. <a href="https://github.com/mbzuai-nlp/ArTST"><strong>Arabic Speech and Text Transformer (ArTST)</strong></a> is a project built with the idea that optimizing performance for Arabic speech requires building models for Arabic from the get-go, rather than fine-tuning English-centric on multilingual models. While multi-lingual models are impressive, they are inferior for specific target languages compared to monolingual models trained with the same amounts of data. <br>
+
+Our models are currently all based on the <a href="https://huggingface.co/docs/transformers/en/model_doc/speecht5" target="_blank" rel="noopener noreferrer"><strong>SpeechT5</strong></a> architecture, notable for its unified multi-modal pre-training approach. It can handle both speech and text as input <em>and</em> output, allowing a single pre-trained foundation model to be effectively fine-tuned for diverse tasks like Automatic Speech Recognition (<strong>ASR</strong>) and Text-to-Speech (<strong>TTS</strong>). This offers flexibility compared to many frameworks limited to a single output modality (e.g. Whisper, at the time of this writing, only supports text output). Our first version of ArTST (v1), which received the <strong>best paper award</strong> at ArabicNLP 2023, supported only Modern Standard Arabic (MSA). Subsequent versions include multiple dialects (v2) and languages (v3) to support dialectal speech and code-switching. We also recently added a version pre-trained with diacritics.
+</p>
 </div>
 
-## ArTST Versions: Choosing the Right Model
+## ArTST Versions: Choosing the Right Pre-Trained Model
 
 <div style="font-size: 16px; text-align: justify;">
 We've released several ArTST versions, each pre-trained and optimized for different scenarios. Understanding their strengths helps in selecting the best model for your specific needs:
@@ -59,7 +62,7 @@ Our pre-trained models are available on the Hugging Face Hub, making them easy t
   <a href="https://huggingface.co/collections/MBZUAI/artst-arabic-text-speech-transformer-672cb44bb4215fd38814aeef" class="btn btn--info" target="_blank" rel="noopener noreferrer"><i class="fas fa-box-open"></i> Find ArTST Models on Hugging Face Hub</a>
 </div>
 
-### ArTST Usage
+### Selecting task specific ArTST
 
 <div style="font-size: 16px; text-align: justify;">
 After pre-training, we further train (or "fine-tune") these ArTST models to make them specialized for specific tasks like turning speech into text Automatic Speech Recognition (ASR) or text into speech (TTS). Fine-tuning uses labeled data (like audio paired with its transcription for ASR, or text paired with its spoken version for TTS) to adjust the pre-trained model. For ASR, we train the model to output the correct text transcription for a given audio input. For TTS, we train it to generate natural-sounding speech audio from given text input. Here are some of our main fine-tuned ASR models available on the Hugging Face Hub:
@@ -279,36 +282,32 @@ Our research with ArTST has yielded several key insights into Arabic speech proc
 ### MSA Performance (ArTST v1)
 
 <div style="font-size: 16px; text-align: justify;">
-    Our initial work established ArTST as a state-of-the-art model for <strong>MSA</strong>.
-    <ul>
-        <li><strong>ASR:</strong> Achieved <strong>12.8% WER</strong> on the MGB2 benchmark, outperforming larger multilingual models significantly (<a href="https://aclanthology.org/2023.arabicnlp-1.5.pdf" target="_blank" rel="noopener noreferrer">ArabicNLP 2023</a>). Also achieved <strong>94% accuracy</strong> on ADI17 dialect ID.</li>
-        <li><strong>TTS:</strong> Demonstrated the feasibility of high-quality TTS <em>without input diacritics</em> by leveraging extensive pre-training. Showcased that "pre-fine-tuning" on ASR data before clean TTS data improves quality (ArTST*). <a style="color:Tomato" href="https://speechsample.wixsite.com/artsttts" target="_blank" rel="noopener noreferrer">Listen to samples</a>.</li>
-    </ul>
-</div>
+     <strong>ASR:</strong> In our <a href="https://aclanthology.org/2023.arabicnlp-1.5.pdf">first ArTST paper</a>, we describe ASR fine-tuning experiments on MSA, where we fine-tune using the MGB2 benchmark dataset. The result is comparable to the current SOTA, with 12.8% WER. Compared to supervised multilingual models like Whisper and MMS, both medium and large versions, ArTST v1 results in half the error rate (at least) with a fraction of the parameters. The model showed some potential for recognizing dialects as well, but it wasn't optimized for that. We also trained the model for ADI17 dialect identification benchmark, and got SOTA 94% accuracy. <br><br>
+     <strong>TTS:</strong> We also fine-tuned the model for <a style="color:Tomato">Text-to-Speech</a> synthesis on the <a href="/clartts/">ClArTTS</a> dataset. One of our interesting findings is that reasonable TTS performance can be achieved without the inclusion of diacritics. Prior efforts on Arabic TTS rely on diacritic restoration as TTS systems are generally trained with relatively small amounts of data and rely on short contexts for sound styntehsis. The lack of diacritics means that the model has to infer the pronunciation of short vowels from context, which is far-fetched unless large amounts of data (and large models) are used. Due to ArTST's pre-training on ~1000 hours of Arabic speech, we were able to achieve decent TTS performance without the use of any diacritics, using roughly 12 hours of TTS training data. Furthermore, we experimented with using ASR data from MGB2 to do "pre-fine-tuning" for TTS, where we first fine-tune on MGB2 data, then ClArTTS. Note that ASR data are generally not suitable for TTS training since the data is generally noisy and inconsistent in style, speaking rate, emotion, etc. What we find is that this process results in further improvements in TTS quality. We refer to this model a ArTST*; you can <a style="color:Tomato">listen to some samples <a href="https://speechsample.wixsite.com/artsttts">here</a>. </a>
+ </div>
 
 ### Dialectal ASR and Code-Switching (ArTST v2 & v3)
 
 <div style="font-size: 16px; text-align: justify;">
-We extended ArTST to handle the complexities of spoken Arabic (<a href="https://arxiv.org/pdf/2411.05872" target="_blank" rel="noopener noreferrer">ArXiv paper</a>).
-    <ul>
-        <li><strong>ArTST v2 (Dialects):</strong> Pre-trained on ~3000 hours covering 17 dialectal varieties. Significantly improves dialectal ASR performance, especially when using a <em>jointly trained model</em> with <em>dialect inference</em>.</li>
-        <li><strong>ArTST v3 (Code-Switching):</strong> Incorporates English/French pre-training data. Effectively handles <strong>Arabic-English/French code-switching</strong> in ASR, a task where v1 and v2 struggle.</li>
-    </ul>
-</div>
+     In our subsequent <a href="https://arxiv.org/pdf/2411.05872">paper</a> we describe ASR experiments using our v2 checkpoint. This checkpoint is trained with roughly 3000 hours of speech, spanning 17 dialectal varieties (based on country codes). We conducted ASR fine-tuning experiments on 11 dialcts, in addition to MSA. We also kept 3 dialects for zero-shot testing. In the same paper, we also describe the multi-lingual checkpoint, v3, which includes English, French, and Spanish. The multilingual pre-training and fine-tuning enables the model to handle cases of code-switching. The paper details various experiments on pre-training effects, dialect ID forcing, dialect ID inference, and joint dialectal training. Based on these findings, we recommend the following:
+ </div>
+ 
+ - For MSA, v1 and v2 perform equally well. 
+ - For dialects, the joint v2 model with dialect inference achieves the best performance on average. 
+ - Neither v1 nor v2 can handle code-switching with other languages. 
+ - v3 performs well on Arabic-English and Arabic-French code-switching, at the cost of somewhat lower performance on monolinual Arabic. 
 
 ### Diacritics in Speech Processing (ArTST v1.5 & Multimodal Methods)
 
 <div style="font-size: 16px; text-align: justify;">
-We investigated leveraging speech for better Arabic diacritization.
-    <ul>
-        <li><strong>ASR Diacritization:</strong> Direct ASR output of diacritics outperforms text-only post-processing methods (<a href="https://www.isca-archive.org/interspeech_2023/aldarmaki23_interspeech.pdf" target="_blank" rel="noopener noreferrer">INTERSPEECH 2023</a>).</li>
-        <li><strong>Multimodal Restoration:</strong> Using both audio features and text input via cross-attention significantly reduces errors when restoring diacritics to undiacritized text (<a href="https://aclanthology.org/2024.naacl-long.233.pdf" target="_blank" rel="noopener noreferrer">NAACL 2024</a>). Data augmentation further boosts robustness (<a href="https://aclanthology.org/2024.arabicnlp-1.15.pdf" target="_blank" rel="noopener noreferrer">ArabicNLP 2024</a>).</li>
-        <li><strong>ArTST v1.5 (Diacritic Pre-training):</strong> Pre-training with diacritized text (using MGB2 audio + Tashkeela text) demonstrably improves performance for diacritic-sensitive tasks like high-quality TTS compared to models pre-trained only on undiacritized text.</li>
-    </ul>
-</div>
+ Speech presents an interesting avenue for diacritization research. We did <a href="https://www.isca-archive.org/interspeech_2023/aldarmaki23_interspeech.pdf">a study on ASR diacritization performance</a>, published at INTERSPEECH 2023, comparing it with post-processing using text-based diacritic restoration models (the standard diacritic restoration type of model). Diacritization directing using ASR results in far better performance. <br>
+ <strong>Multimodal Diacritic Restoration:</strong> Subsequently, we explored the potential of speech as an additional signal for diacritic restoration. As a use case, consider all the resources available for Arabic ASR, such as MGB2 (1000 hours) and QASR (2000 hours); these datasets contain speech and text transcripts, but most of the text contains no diacritics. Could we use both the speech and text for accurate diacritic restoration? Indeed, our <a href="https://aclanthology.org/2024.naacl-long.233.pdf">paper describing such model</a> was published at NAACL 2024. The proposed model incorporated a Whisper model fine-tuned on our <a href="/clartts/">ClArTTS</a> dataset to produce diacritized transcripts, in addition to the raw text input. Using cross-attention, the network integrates predictions from ASR, as well as the correct undiacritized reference text, to restore the missing diacritics. Our findings reveal that such approach is effective and reduced diacritic error rates by half on the ClArTTS test set. We also tested on out-of-domain MSA data and observed some reduction in DER, but the effect was smaller. Overall, DER on MSA data was rather high, even when using popular open and closed text-based diacritic restoration model. <br>
+ <strong>Data Augmentation:</strong>Our <a href="https://aclanthology.org/2024.arabicnlp-1.15.pdf">subsequent paper</a> explored a data augmentation technique to improve the generaalization of the system. The proposed augmentation method consists of random diacritics applied to text, then synthesizing speech based on these randomly diacritized text using a commercial TTS system. The intuition behind this approach is to reduce the dependency of the model's predictions on the textual context to push the model towards better model of the acoustic properties that correspond to a given diacritic. This technique consistently improved diacritic recognition performance on all models and datasets. <br>
+ <strong>Pre-training with Diacritics:</strong> Since our ArTST models are pre-trained without diacritics (s most speech resourced don't include diacritics), this may have an effect on fine-tuning performance when diacritics are included, as that requires some unlearning of the patterns aquired in the pre-training phase. Indeed, we find that this effect is most evident for TTS, where pre-training hampers the model's performance when diacritics are included. That is one reason why our original TTS models based on ArTST were undiacritized. Since pre-training does not require alignment between the speech and text data, We pre-trained another version of ArTST (v1.5) using MGB2 audio and diacritized text from Tashkeela. We then fine-tuned TTS with diacritics and compared with v1. Our hypothesis was supported, and the model fine-tuned from v1.5 was significantly better than the one fine-tuned on v1, everything else being equal. 
+ </div>
 
 ---
 
 ## Conclusion
 
-The ArTST project provides a suite of powerful, open-source models specifically designed for the complexities of Arabic speech. By focusing on Arabic data from the start and tailoring versions for MSA, dialects, code-switching, and diacritics, ArTST offers state-of-the-art performance across various tasks. We encourage researchers and developers to explore the models on the [Hugging Face Hub](https://huggingface.co/models?search=mbzuai-nlp/artst) and contribute to the ongoing development on [GitHub](https://github.com/mbzuai-nlp/ArTST).
+The ArTST project provides open-source models specifically designed for the complexities of Arabic speech. By focusing on Arabic data from the start and tailoring versions for MSA, dialects, code-switching, and diacritics, ArTST offers state-of-the-art performance across various tasks. We encourage researchers and developers to explore the models on the [Hugging Face Hub](https://huggingface.co/models?search=mbzuai-nlp/artst) and contribute to the ongoing development on [GitHub](https://github.com/mbzuai-nlp/ArTST).
