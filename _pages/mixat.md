@@ -29,26 +29,30 @@ author_profile: false
           <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2024.sigul-1.26.pdf">PDF</a> &nbsp;
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
         <a class="pub-link" href="https://huggingface.co/datasets/sqrk/mixat-tri">Dataset</a> &nbsp;
-        <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+        <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">Mixat</span>
         <span class="bibtex-box">
 @inproceedings{al-ali-aldarmaki-2024-mixat,
     title = "Mixat: A Data Set of Bilingual Emirati-{E}nglish Speech",
-    author = "Al Ali, Maryam Khalifa  and
-      Aldarmaki, Hanan",
-    editor = "Melero, Maite  and
-      Sakti, Sakriani  and
-      Soria, Claudia",
+    author = "Al Ali, Maryam Khalifa and Aldarmaki, Hanan",
     booktitle = "Proceedings of the 3rd Annual Meeting of the Special Interest Group on Under-resourced Languages @ LREC-COLING 2024",
-    month = may,
     year = "2024",
-    address = "Torino, Italia",
-    publisher = "ELRA and ICCL",
-    url = "https://aclanthology.org/2024.sigul-1.26/",
-    pages = "222--226",
+}
+  </span>
+    <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">PolyWER</span>
+        <span class="bibtex-box">
+@inproceedings{kadaoui-etal-2024-polywer,
+    title = "{P}oly{WER}: A Holistic Evaluation Framework for Code-Switched Speech Recognition",
+    author = "Kadaoui, Karima  and Ali, Maryam Al  and Toyin, Hawau Olamide  and Mohammed, Ibrahim  and Aldarmaki, Hanan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.356/",
 }
   </span>
   <div style="font-size: 16px; text-align: justify;">
-    <p>Mixat is an ASR dataset of Emirati speech code-mixed with English, developed to address the shortcomings of current Emirati speech ASR resources, particularly Emirati-English code-switching. The dataset consists of 15 hours of speech derived from two public podcasts featuring native Emirati speakers. The <a href="https://www.youtube.com/channel/UCZbKz4QeFWbfMVE0fSJeuUw">first podcast</a> (used as a train set) includes 3,728 utterances from conversations between the host and a guest, while the <a href="https://open.spotify.com/show/3yEonEQO8Jfu4plB6B78HE?si=04c16d09c4dd49e2">second one</a> (test set) is a single-speaker podcast of 1,588 segments. In addition to the standard reference with English written in the Latin script, the test set contains two additional transcriptions types: one with the transliteration of the code-switched parts to the Arabic script, and one with their translation to Emirati Arabic. Check out the paper for more details on dataset construction.</p>
+    <p>Mixat is an ASR dataset of Emirati speech code-mixed with English, developed to address the shortcomings of current Emirati speech ASR resources, particularly Emirati-English code-switching. The dataset consists of 15 hours of speech derived from two public podcasts featuring native Emirati speakers, extracted with the hosts' permission (to be used for research purposes). The <a href="https://www.youtube.com/channel/UCZbKz4QeFWbfMVE0fSJeuUw">first podcast</a> (used as a train set) includes 3,728 utterances from conversations between the host and a guest, while the <a href="https://open.spotify.com/show/3yEonEQO8Jfu4plB6B78HE?si=04c16d09c4dd49e2">second one</a> (test set) is a single-speaker podcast of 1,588 segments. Check out the Mixat paper for more details on dataset construction.</p> <br>
+      
+    <p>In addition to the standard reference with English written in the Latin script, the test set contains two additional transcriptions types: one with the transliteration of the code-switched parts to the Arabic script, and one with their translation to Emirati Arabic. These were added to support the implementation of the PolyWER metric.
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10" type="text/javascript"></script>
