@@ -26,7 +26,8 @@ author_profile: false
       <li><i data-vi="cog"  data-vi-size="20"></i> ASR, Code-switching</li>
     </ul>
     <p>
-          <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2024.sigul-1.26.pdf">PDF</a> &nbsp;
+          <i class="fas fa-quote-right"></i> <a class="pub-link" href="https://aclanthology.org/2024.sigul-1.26.pdf">Mixat</a> &nbsp;
+           <i class="fas fa-quote-right"></i> <a class="pub-link" href="https://aclanthology.org/2024.findings-emnlp.356.pdf">PolyWER</a> &nbsp;
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
         <a class="pub-link" href="https://huggingface.co/datasets/sqrk/mixat-tri">Dataset</a> &nbsp;
         <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">Mixat</span>
@@ -50,9 +51,8 @@ author_profile: false
 }
   </span>
   <div style="font-size: 16px; text-align: justify;">
-    <p>Mixat is an ASR dataset of Emirati Arabic speech, code-mixed with English. The dataset consists of 15 hours of speech derived from two public podcasts featuring native Emirati speakers, extracted with the hosts' permission (to be used for research purposes). The <a href="https://www.youtube.com/channel/UCZbKz4QeFWbfMVE0fSJeuUw">first podcast</a> (used as a train set) includes 3,728 utterances from conversations between the host and various guests, while the <a href="https://open.spotify.com/show/3yEonEQO8Jfu4plB6B78HE?si=04c16d09c4dd49e2">second one</a> (test set) is a single-speaker podcast of 1,588 segments. Check out the <a href="https://aclanthology.org/2024.sigul-1.26.pdf">Mixat paper </a> for more details on dataset construction.</p> <br>
-      
-    <p>In addition to the original reference transcriptions, where code-switched English segments are transcribed in the Latin script, we added two additional transcription types: one with transliterations of English segments into Arabic script, and one with their translation into Emirati Arabic. The transliterated/translated segments are marked with brackets to easily separate them from the original Arabic text. These additional annotations were added to support the implementation of the <a href="https://https://aclanthology.org/2024.findings-emnlp.356/">PolyWER</a> metric. If you use the dataset or transcriptions provided in Huggingface, place cite both papers. 
+    <p>Mixat is an ASR dataset of Emirati Arabic speech, code-mixed with English. The dataset consists of 15 hours of speech derived from two public podcasts featuring native Emirati speakers, extracted with the hosts' permission (to be used for research purposes). The <a href="https://www.youtube.com/channel/UCZbKz4QeFWbfMVE0fSJeuUw">first podcast</a> (used as a train set) consists of conversations between the host and various guests, from which we extracted 3,728 utterances. The <a href="https://open.spotify.com/show/3yEonEQO8Jfu4plB6B78HE?si=04c16d09c4dd49e2">second podcast</a> (test set) is a single-speaker podcast, from which we extracted 1,588 segments. Check out the <a href="https://aclanthology.org/2024.sigul-1.26.pdf">Mixat paper </a> for more details on dataset construction.</p> <br>   
+    <p>In addition to the original reference transcriptions, where code-switched English segments are transcribed in the Latin script, we added two additional transcription types: one with transliterations of English segments into Arabic script, and one with their translation into Emirati Arabic. The transliterated/translated segments are marked with brackets to easily separate them from the original Arabic text. These additional annotations were added to support the implementation of the <a href="https://aclanthology.org/2024.findings-emnlp.356.pdf">PolyWER</a> metric. If you use the dataset or transcriptions provided in Huggingface, place cite both papers. 
 </p>
 </div>
 
