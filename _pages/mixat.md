@@ -26,8 +26,8 @@ author_profile: false
       <li><i data-vi="cog"  data-vi-size="20"></i> ASR, Code-switching</li>
     </ul>
     <p>
-          <i class="fas fa-quote-right"></i> <a class="pub-link" href="https://aclanthology.org/2024.sigul-1.26.pdf">Mixat</a> &nbsp;
-           <i class="fas fa-quote-right"></i> <a class="pub-link" href="https://aclanthology.org/2024.findings-emnlp.356.pdf">PolyWER</a> &nbsp;
+          <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2024.sigul-1.26.pdf">Mixat</a> &nbsp;
+           <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2024.findings-emnlp.356.pdf">PolyWER</a> &nbsp;
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
         <a class="pub-link" href="https://huggingface.co/datasets/sqrk/mixat-tri">Dataset</a> &nbsp;
         <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">Mixat</span>
