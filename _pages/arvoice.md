@@ -22,7 +22,7 @@ author_profile: false
     <ul class="dataset-features">
       <li><i data-vi="hourglass" data-vi-size="20"></i> 84 hours</li>
       <li><i data-vi="user"  data-vi-size="20"></i> 7 human speakers (train/test), 4 synthetic speakers (train/test)</li>
-      <li><i data-vi="chat"  data-vi-size="20"></i> X utterances</li>
+      <li><i data-vi="chat"  data-vi-size="20"></i> 2.5K+ unique utterances</li>
       <li><i data-vi="cog"  data-vi-size="20"></i> TTS, Diacritic Restoration</li>
     </ul>
     <p>
@@ -36,7 +36,7 @@ author_profile: false
   </span>
     
   <div style="font-size: 16px; text-align: justify;">
-    <p>ArVoice is a multi-speaker Modern Standard Arabic (MSA) speech corpus with fully diacritized transcriptions, intended  for multi-speaker speech synthesis,  and can be useful for other tasks such as speech-based diacritic restoration, voice conversion, and deepfake detection. ArVoice comprises: (1) a new professionally recorded set from $6$ voice talents with diverse demographics, (2) a modified subset of the Arabic Speech Corpus; and (3) high-quality synthetic speech from $2$ commercial systems. The complete corpus consists of a total of $83.52$ hours of speech across $11$ voices; around $10$ hours consist of human voices from $7$ speakers.The modified subset and full synthetic subset are available on HuggingFace. To access the new professionally recorded subset, <a href="/" > sign this agreement </a> . If you use the dataset or transcriptions provided in Huggingface, <u>place cite the paper</u>. 
+    <p>ArVoice is a multi-speaker Modern Standard Arabic (MSA) speech corpus with fully diacritized transcriptions, intended  for multi-speaker speech synthesis,  and can be useful for other tasks such as <b>speech-based diacritic restoration</b>,<b> voice conversion</b>, and <b>deepfake detection</b>. ArVoice comprises: (1) a new professionally recorded set from $6$ voice talents with diverse demographics, (2) a modified subset of the Arabic Speech Corpus; and (3) high-quality synthetic speech from $2$ commercial systems. The complete corpus consists of a total of $83.52$ hours of speech across $11$ voices; around $10$ hours consist of human voices from $7$ speakers.The modified subset and full synthetic subset are available on HuggingFace. To access the new professionally recorded subset, <a href="/" > sign this agreement </a> . If you use the dataset or transcriptions provided in Huggingface, <u>place cite the paper</u>. 
 </p>
 </div>
 
