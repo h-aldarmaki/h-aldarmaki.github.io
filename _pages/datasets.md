@@ -24,7 +24,7 @@ sidebar:
   </div>
 
   <div class="gallery-item">
-    <a>
+    <a href="/arvoice/">
       <img src="/assets/images/arvoice.png" alt="ArVoice">
     </a>
     <p><strong>ArVoice:</strong> Multi-Speaker Modern Standard Arabic Text-to-Speech corpus</p>
