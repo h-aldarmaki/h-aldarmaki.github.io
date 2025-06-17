@@ -16,7 +16,7 @@ excerpt: "Dive into ArTST, our state-of-the-art Arabic Text & Speech Transformer
 author: Amir Djanibekov
 ---
 <div style="text-align: center;">
-  <img src="/assets/images/posts/artst_wide.jpg" alt="ArTST" style="max-width:200px"/>    
+  <img src="/assets/images/posts/artst_wide.jpg" alt="ArTST" style="max-width:300px"/>    
 </div>
 
 <div style="font-size: 16px; text-align: justify;">
