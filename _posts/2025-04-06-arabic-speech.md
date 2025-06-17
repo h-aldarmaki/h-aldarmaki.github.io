@@ -1,5 +1,5 @@
 ---
-title: "ArTST: Unified Arabic Speech Recognition and Synthesis Models" # Slightly more descriptive title
+title: "ArTST: Arabic Speech Processing"
 date: 2024-04-06
 last_modified_at: 2024-04-27
 categories: projects
