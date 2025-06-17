@@ -21,7 +21,7 @@ author: Hanan Aldarmaki
 
 
 <div style="text-align: center;">
-  <img src="/assets/images/posts/tts_eval.jpg" alt="TTS Evaluation" style="max-width:300px"/>    
+  <img src="/assets/images/posts/tts_eval.jpg" alt="TTS Evaluation" style="max-width:200px"/>    
 </div>
 <div style="font-size: 16px; text-align: justify;">
   Evaluating TTS systems can be tricky. There are two types of subjective tests commonly used in TTS papers: absolute ratings, such as naturalness Mean Opinion Score (MOS), and preference tests. In absolute ratings,  a single sample is presented to a listener who is asked to rate it on a 5-point Likert scale. While such scores are useful to get a sense of the overall quality of a TTS system (e.g. how good is it compared to natural speech?), they are not always suitable to assess finer quality differences. In such cases, we use preference tests. In this post, we describe the process of setting up and reporting TTS preference tests in our lab.  
