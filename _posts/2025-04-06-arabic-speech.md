@@ -15,8 +15,8 @@ image: /assets/images/artst.jpg # For social sharing
 excerpt: "Dive into ArTST, our state-of-the-art Arabic Text & Speech Transformer. Learn about models covering MSA, Dialects, and Code-Switching, with practical usage examples."
 author: Amir Djanibekov
 ---
-<div>
-  <img src="/assets/images/artst.jpg" alt="ArTST Logo" style="float: left; margin-right: 1rem; max-width:140px"/>
+<div style="text-align: center;">
+  <img src="/assets/images/posts/artst_wide.jpg" alt="ArTST" style="max-width:200px"/>    
 </div>
 
 <div style="font-size: 16px; text-align: justify;">
