@@ -31,7 +31,14 @@ author_profile: false
         <a class="pub-link" href="https://huggingface.co/datasets/MBZUAI/ArVoice">Dataset</a> &nbsp;
         <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">ArVoice</span>
         <span class="bibtex-box">
-@inproceedings{coming soon.
+@misc{toyin2025arvoicemultispeakerdatasetarabic,
+      title={ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis}, 
+      author={Hawau Olamide Toyin and Rufael Marew and Humaid Alblooshi and Samar M. Magdy and Hanan Aldarmaki},
+      year={2025},
+      eprint={2505.20506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.20506}, 
 }
   </span>
     
