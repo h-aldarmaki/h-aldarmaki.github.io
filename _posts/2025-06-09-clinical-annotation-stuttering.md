@@ -67,16 +67,25 @@ A critical aspect of our annotation process was establishing and measuring inter
 Our dataset includes a total of 1,654 and 4,037 non-overlapping stuttering spans in the reading and interview sections of FluencyBank dataset, respectively. Each span was annotated with a tension score, a primary type, and a secondary type, though in some cases only primary or secondary types were observed. We measured Inter-Annotator Agreement (IAA) across multiple annotation dimensions using established methodologies.
 </div>
 
-### Steps for inter annotator agreement
 
-To ensure our annotations are reliable and clinically valid, we systematically calculated inter‑annotator agreement across temporal spans, disfluency types, and tension scores. Here’s how we approached it:
+To ensure our annotations are reliable, we systematically calculated inter‑annotator agreement across temporal spans, disfluency types, and tension scores. Here’s how we approached it:
 
-#### 1. Grouping / Aligning Annotations  
-- **Temporal spans**: We applied *agglomerative clustering* on annotated time segments using **Intersection-over-Union (IoU)** as the distance measure.  
+### 1. Grouping / Aligning Annotations  
+- We applied *agglomerative clustering* on annotated time segments using **Intersection-over-Union (IoU)** as the distance measure.  
 - Annotations that overlapped sufficiently were clustered together, creating comparable units for agreement computation.
 
-#### 2. Applying Agreement Metrics  
-For each component, we used **Krippendorff’s α (alpha)** — a robust reliability coefficient suitable for different data types and multiple annotators.
+### 2. Applying Agreement Metrics  
+For each component, we used **Krippendorff’s α (alpha)** — a robust reliability coefficient suitable for different data types and multiple annotators. it is computed as follows
+
+Let **Dₒ** be the observed disagreement and **Dₑ** the expected disagreement:
+<div style="text-align: left; margin-left: 30%;">
+  α = 1 – (Dₒ / Dₑ)
+</div>
+
+> For details, see Krippendorff’s explanation:  
+> [Krippendorff, K. (2013). "Computing Krippendorff’s Alpha-Reliability".](https://www.asc.upenn.edu/sites/default/files/2021-03/Computing%20Krippendorff%27s%20Alpha-Reliability.pdf)
+
+The disagreements for each category are computed as follows:
 
 | Component              | Data Type        | Distance/Similarity Metric           | Krippendorff’s α |
 |------------------------|------------------|--------------------------------------|------------------|
@@ -84,36 +93,28 @@ For each component, we used **Krippendorff’s α (alpha)** — a robust reliabi
 | Primary/Secondary types| Nominal          | Binary distance (match/mismatch)     | Varies by class  |
 | Tension scores         | Ordinal          | Normalized rank‑Euclidean distance   | 0.18             |
 
-it is computed as follows
+<!-- 
 
-
-Let **Dₒ** be the observed disagreement and **Dₑ** the expected disagreement, computed using:
-
-  α = 1 – (Dₒ / Dₑ)
 
 - For *intervals*, agreement is based on temporal overlap (IoU).
 - For *nominal labels*, exact matches count as agreement.
-- For *ordinal ratings* (tension), distances are weighted by their rank differences.
+- For *ordinal ratings* (tension), distances are weighted by their rank differences. -->
 
-> For a detailed explanation, see Krippendorff’s original paper:  
-> Krippendorff, K. (2004). "Content Analysis: An Introduction to Its Methodology" (2nd ed.).
 
-You can compute α using our implementation in [Our Github Repo](https://github.com/rufaelfekadu/IAA.git)
+You can compute α using our implementation on [Github](https://github.com/rufaelfekadu/IAA.git)
 
 Run the following commands
 
-{% highlight python %}
-
+{% highlight bash %}
 git clone https://github.com/rufaelfekadu/IAA.git
 cd IAA
 pip install numpy pandas matplotlib scikit-learn
-
 {% endhighlight %}
 
 Download the dataset from [Here](https://github.com/mbzuai-nlp/CASA)
 
-{% highlight python %}
-wget https://github.com/mbzuai-nlp/CASA/blob/main/data/Voices-AWS/total_dataset.csv
+{% highlight bash %}
+wget https://raw.githubusercontent.com/mbzuai-nlp/CASA/refs/heads/main/data/Voices-AWS/total_dataset.csv
 {% endhighlight %}
 
 Use the following script to compute the IAA
@@ -208,9 +209,10 @@ with open(f'iaa_results.json', 'w') as f:
 
 
 {% endhighlight%}
+{: .copy-code}
 
 
-#### 3. Interpretation  
+### 3. Interpretation  
 <div style="text-align: center;">
   <img src="/assets/images/posts/agreement.png" alt="Clinical Stuttering Assessment" style="width: 70%;"/>
 </div>
