@@ -31,12 +31,19 @@ author_profile: false
         <a class="pub-link" href="https://huggingface.co/datasets/MBZUAI/ArVoice">Dataset</a> &nbsp;
         <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">ArVoice</span>
         <span class="bibtex-box">
-@inproceedings{coming soon.
+@misc{toyin2025arvoicemultispeakerdatasetarabic,
+      title={ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis}, 
+      author={Hawau Olamide Toyin and Rufael Marew and Humaid Alblooshi and Samar M. Magdy and Hanan Aldarmaki},
+      year={2025},
+      eprint={2505.20506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.20506}, 
 }
   </span>
     
   <div style="font-size: 16px; text-align: justify;">
-    <p>ArVoice is a multi-speaker Modern Standard Arabic (MSA) speech corpus with fully diacritized transcriptions, intended  for multi-speaker speech synthesis,  and can be useful for other tasks such as <b>speech-based diacritic restoration</b>,<b> voice conversion</b>, and <b>deepfake detection</b>. ArVoice comprises: (1) a new professionally recorded set from $6$ voice talents with diverse demographics, (2) a modified subset of the Arabic Speech Corpus; and (3) high-quality synthetic speech from $2$ commercial systems. The complete corpus consists of a total of $83.52$ hours of speech across $11$ voices; around $10$ hours consist of human voices from $7$ speakers.The modified subset and full synthetic subset are available on HuggingFace. To access the new professionally recorded subset, <a href="/" > sign this agreement </a> . If you use the dataset or transcriptions provided in Huggingface, <u>place cite the paper</u>. 
+    <p>ArVoice is a multi-speaker Modern Standard Arabic (MSA) speech corpus with fully diacritized transcriptions, intended  for multi-speaker speech synthesis,  and can be useful for other tasks such as <b>speech-based diacritic restoration</b>,<b> voice conversion</b>, and <b>deepfake detection</b>. ArVoice comprises: (1) a new professionally recorded set from $6$ voice talents with diverse demographics, (2) a modified subset of the Arabic Speech Corpus; and (3) high-quality synthetic speech from $2$ commercial systems. The complete corpus consists of a total of $83.52$ hours of speech across $11$ voices; around $10$ hours consist of human voices from $7$ speakers.The modified subset and full synthetic subset are available on HuggingFace. To access the new professionally recorded subset, <a href="/assets/files/ArVoice DUA.pdf" > sign this agreement </a> . If you use the dataset or transcriptions provided in Huggingface, <u>place cite the paper</u>. 
 </p>
 </div>
 
