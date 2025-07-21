@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 image: /assets/images/posts/artst_wide.jpg # For social sharing
 excerpt: "Dive into ArTST, our state-of-the-art Arabic Text & Speech Transformer. Learn about models covering MSA, Dialects, and Code-Switching, with practical usage examples."
-author: Amir Djanibekov
+author: Hanan Aldarmaki and Amir Djanibekov
 ---
 <div style="text-align: center;">
   <img src="/assets/images/posts/artst_wide.jpg" alt="ArTST" style="max-width:300px"/>    
