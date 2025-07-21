@@ -31,7 +31,7 @@ sidebar:
   </div>
 
    <div class="gallery-item">
-    <a href="https://huggingface.co/datasets/toloka/JEEM">
+    <a href="https://toloka.ai/jeem-benchmark">
       <img src="/assets/images/jeem.png" alt="JEEM">
     </a>
     <p><strong>JEEM:</strong> Image captioning and question answering in 4 Arabic dialects</p>

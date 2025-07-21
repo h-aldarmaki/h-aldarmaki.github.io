@@ -8,6 +8,61 @@ author_profile: false
 ## 2025
 
 <p>
+  <strong>Dialectal Coverage And Generalization in Arabic Speech Recognition</strong><br>
+  Hawau Olamide Toyin, Amirbek Djanibekov, Raghad Alshalan, Abdullah Alitr, <strong>Hanan Aldarmaki</strong><br>
+  <em>ACL, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2411.05872">Preprint</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/mbzuai-nlp/ArTST">Code</a> &nbsp;
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
+  <a class="pub-link" href="https://huggingface.co/collections/MBZUAI/artst-arabic-text-speech-transformer-672cb44bb4215fd38814aeef">Models</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{toyin2023artst,
+  title={ArTST: Arabic Text and Speech Transformer},
+  author={Djanibekov, Amirbek and Toyin, Hawau Olamide and Alshalan, Raghad and Alitr, Abdullah and Aldarmaki, Hanan},
+  booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year={2025}
+}
+  </span>
+</p>
+
+
+<p>
+  <strong>Clinical Annotations for Automatic Stuttering Severity Assessment</strong><br>
+  Ana Rita Valente, Rufael Marew, Hawau Olamide Toyin, Hamdan Al-Ali, Anelise Bohnen, Inma Becerra, Elsa Marta Soares, Goncalo Leal, <strong>Hanan Aldarmaki</strong><br>
+  <em>INTERSPEECH, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2506.00644">Preprint</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/mbzuai-nlp/CASA">Code</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{valente2025clinical,
+  title={Clinical Annotations for Automatic Stuttering Severity Assessment},
+  author={Valente, Ana Rita and Marew, Rufael and Toyin, Hawau Olamide and Al-Ali, Hamdan and Bohnen, Anelise and Becerra, Inma and Soares, Elsa Marta and Leal, Goncalo and Aldarmaki, Hanan},
+  booktitle={Proc. Interspeech 2025},
+  year={2025}
+}
+  </span>
+</p>
+
+<p>
+  <strong>ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis</strong><br>
+  Hawau Toyin, Rufael Marew, Humaid Alblooshi, Samar Magdy, <strong>Hanan Aldarmaki</strong><br>
+  <em>INTERSPEECH, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.20506?">Preprint</a> &nbsp;
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
+<a class="pub-link" href="https://huggingface.co/datasets/MBZUAI/ArVoice">Dataset</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{toyin2025arvoice,
+  title={ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis},
+  author={Toyin, Hawau Olamide and Marew, Rufael and Alblooshi, Humaid and Magdy, Samar M and Aldarmaki, Hanan},
+  booktitle={Proc. Interspeech 2025},
+  year={2025}
+}
+  </span>
+</p>
+
+<p>
   <strong>Infant Cry Detection Using Causal Temporal Representation</strong><br>
   Minghao Fu, Danning Li, Aryan Gadhiya, Benjamin Lambright, Mohamed Alowais, Mohab Bahnassy, Saad El Dine Elletter, Hawau Olamide Toyin, Haiyan Jiang, Kun Zhang, <strong>Hanan Aldarmaki</strong><br>
   <em>ICASSP, 2025</em><br>
