@@ -33,6 +33,7 @@ author_profile: true
     <h2>Hawau Olamide Toyin</h2>
     <p>PhD Student</p>
     <div class="team-links">
+      <a href="https://theehawau.github.io/" title="Homepage" target="_blank" class="fas fa-fw fa-home" style="color: Tomato;"></a>
       <a href="https://linkedin.com/in/toyinhawau" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
       <a href="https://github.com/theehawau" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
       <a href="https://scholar.google.com/citations?user=JrSN5G0AAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
