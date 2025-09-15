@@ -26,7 +26,7 @@ author_profile: false
       <li><i data-vi="cog"  data-vi-size="20"></i> TTS, Diacritic Restoration</li>
     </ul>
     <p>
-          <i class="fas fa-file-pdf"></i> <a class="pub-link" href="/">Preprint</a> &nbsp;
+          <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://www.isca-archive.org/interspeech_2025/toyin25_interspeech.pdf">Paper</a> &nbsp;
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
         <a class="pub-link" href="https://huggingface.co/datasets/MBZUAI/ArVoice">Dataset</a> &nbsp;
         <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">ArVoice</span>
