@@ -1,0 +1,61 @@
+---
+layout: single
+---
+
+<style>
+/* Hide the navigation bar on course pages */
+.masthead {
+  display: none !important;
+}
+
+/* Adjust the main content to account for hidden masthead */
+.page__content {
+  margin-top: 0 !important;
+  padding-top: 2rem !important;
+}
+
+/* Add a back button for navigation */
+.course-back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: #8a0303;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.course-back-button:hover {
+  background: #6b0202;
+  color: white;
+  text-decoration: none;
+}
+
+.course-back-button:before {
+  content: "← ";
+  margin-right: 5px;
+}
+
+/* Ensure the page content doesn't overlap with the back button */
+.page__content {
+  margin-top: 60px !important;
+}
+
+/* Hide the sidebar on course pages if needed */
+.sidebar {
+  display: none !important;
+}
+
+.page__inner-wrap {
+  margin-left: 0 !important;
+}
+</style>
+
+<!-- <a href="/courses/" class="course-back-button">Back to Courses</a> -->
+
+{{ content }}
