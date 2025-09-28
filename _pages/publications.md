@@ -7,6 +7,85 @@ author_profile: false
 
 ## 2025
 
+
+<p>
+  <strong>Uncertainty-driven Partial Diacritization for Arabic Text</strong><br>
+  Humaid Alblooshi, Artem Shelmanov, Hanan Aldarmaki<br>
+  <em>Second Workshop on Uncertainty-Aware NLP, 2025</em><br>
+</p>
+
+
+<p>
+  <strong>NADI 2025: The First Multidialectal Arabic Speech Processing Shared Task</strong><br>
+  Bashar Talafha, Hawau Olamide Toyin, Peter Sullivan, AbdelRahim Elmadany, Abdurrahman Juma, Amirbek Djanibekov, Chiyu Zhang, Hamad Alshehhi, Hanan Aldarmaki, Mustafa Jarrar, Nizar Habash, Muhammad Abdul-Mageed<br>
+  <em>ArabicNLP, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2509.02038?">Preprint</a> &nbsp;
+</p>
+
+<p>
+  <strong>SPIRIT: Patching Speech Language Models against Jailbreak Attacks</strong><br>
+  Amirbek Djanibekov, Nurdaulet Mukhituly, Kentaro Inui, Hanan Aldarmaki, Nils Lukas<br>
+  <em>EMNLP, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.13541">Preprint</a> &nbsp;
+</p>
+
+
+<p>
+  <strong>Voice of a Continent: Mapping Africa's Speech Technology Frontier</strong><br>
+  AbdelRahim Elmadany, Sang Yun Kwon, Hawau Olamide Toyin, Alcides Alcoba Inciarte, Hanan Aldarmaki, Muhammad Abdul-Mageed<br>
+  <em>EMNLP, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.18436">Preprint</a> &nbsp;
+</p>
+
+
+<p>
+  <strong>Exploring Transliteration-Based Zero-Shot Transfer for Amharic ASR</strong><br>
+  Hellina Hailu Nigatu, Hanan Aldarmaki<br>
+  <em>AfricaNLP, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.africanlp-1.10.pdf">Paper</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/hhnigatu/ASR-via-Translitration">Code</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{nigatu-aldarmaki-2025-exploring,
+    title = "Exploring Transliteration-Based Zero-Shot Transfer for {A}mharic {ASR}",
+    author = "Nigatu, Hellina Hailu  and
+      Aldarmaki, Hanan",
+    booktitle = "Proceedings of the Sixth Workshop on African Natural Language Processing (AfricaNLP 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.africanlp-1.10/",
+    doi = "10.18653/v1/2025.africanlp-1.10",
+    pages = "64--73"
+}
+  </span>
+</p>
+
+<p>
+  <strong>SparQLe: Speech Queries to Text Translation Through LLMs</strong><br>
+  Amirbek Djanibekov, Hanan Aldarmaki<br>
+  <em>IWSLT, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.iwslt-1.6.pdf">Paper</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/djanibekov/rebooting-llm">Code</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{djanibekov-aldarmaki-2025-sparqle,
+    title = "{S}par{QL}e: Speech Queries to Text Translation Through {LLM}s",
+    author = "Djanibekov, Amirbek  and
+      Aldarmaki, Hanan",
+    booktitle = "Proceedings of the 22nd International Conference on Spoken Language Translation (IWSLT 2025)",
+    month = jul,
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.iwslt-1.6/",
+    doi = "10.18653/v1/2025.iwslt-1.6",
+    pages = "76--83"
+}
+  </span>
+</p>
+
+
 <p>
   <strong>Dialectal Coverage And Generalization in Arabic Speech Recognition</strong><br>
   Hawau Olamide Toyin, Amirbek Djanibekov, Raghad Alshalan, Abdullah Alitr, <strong>Hanan Aldarmaki</strong><br>
