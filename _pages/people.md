@@ -51,6 +51,37 @@ author_profile: true
     </div>
   </div>
 
+  <div class="team-member">
+    <img src="/assets/images/omar.jpeg" alt="Karima Kadaoui">
+    <h2>Omar Kallas</h2>
+    <p>PhD Student</p>
+    <div class="team-links">
+      <a href="https://www.linkedin.com/in/omar-kallas/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <a href="https://github.com/omar-kallas" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
+      <a href="https://scholar.google.com/citations?user=erkQ1UkAAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <img src="/assets/images/humaid.jpeg" alt="Karima Kadaoui">
+    <h2>Humaid Alblooshi</h2>
+    <p>PhD Student</p>
+    <div class="team-links">
+      <a href="https://www.linkedin.com/in/humaid-alblooshi-557083232/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <a href="https://github.com/Humaid1995" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
+      <!-- <a href="https://scholar.google.com/citations?user=R1hg4LAAAAAJ" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a> -->
+    </div>
+  </div>
+  <div class="team-member">
+    <img src="/assets/images/nada.jpeg" alt="Karima Kadaoui">
+    <h2>Nada Saadi</h2>
+    <p>PhD Student</p>
+    <div class="team-links">
+      <a href="https://www.linkedin.com/in/nada-saadi-440632179/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <!-- <a href="https://github.com/Humaid1995" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a> -->
+      <a href="https://scholar.google.com/citations?user=HC0LaA8AAAAJ&hl=en&oi=ao" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
+    </div>
+  </div>
    <div class="team-member">
     <img src="/assets/images/rufael.JPG" alt="Rufael Marew">
     <h2>Rufael Marew</h2>
