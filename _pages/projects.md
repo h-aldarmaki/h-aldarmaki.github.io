@@ -32,7 +32,7 @@ author_profile: false
   </a>
 
   <!-- Project 3 -->
-  <a class="project-row-link">
+  <a href="https://mbzuai-nlp.github.io/stutterbank/" class="project-row-link">
   <div class="project-row">
     <div class="project-image">
       <img src="/assets/images/stutter.jpg" alt="Project 3">
@@ -45,13 +45,13 @@ author_profile: false
   </a>
 
   <!-- Project 4 -->
-  <a class="project-row-link">
+  <a href="https://ramsalab.ae" class="project-row-link">
   <div class="project-row reverse">
     <div class="project-image">
       <img src="/assets/images/emirati.jpg" alt="Project 4">
     </div>
     <div class="project-text">
-      <h2>Spoken Emirati Archive</h2>
+      <h2>Ramsa Lab: Spoken Emirati Archive</h2>
       <p>We ethically collect diverse Emirati speech data from various regions and age groups by engaging directly with the public. We develop tools, dictionaries, and AI models for effective processing of Emirati dialects. </p>
     </div>
   </div>
