@@ -5,6 +5,44 @@ layout: single
 author_profile: false
 ---
 
+## 2026
+<p>
+  <strong>JEEM: Vision-Language Understanding in Four Arabic Dialects</strong><br>
+  Karima Kadaoui, Hanin Atwany, Hamdan Al-Ali, Abdelrahman Mohamed, Ali Mekky, Sergei Tilga, Natalia Fedorova, Ekaterina Artemova, Hanan Aldarmaki, Yova Kementchedjhieva<br>
+  <em>EACL, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2503.21910">Preprint</a> &nbsp;
+  <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://toloka.ai/jeem-benchmark">Website</a> &nbsp;
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
+  <a class="pub-link" href="https://huggingface.co/datasets/toloka/JEEM">Dataset</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@article{kadaoui2025jeem,
+  title={Jeem: Vision-language understanding in four arabic dialects},
+  author={Kadaoui, Karima and Atwany, Hanin and Al-Ali, Hamdan and Mohamed, Abdelrahman and Mekky, Ali and Tilga, Sergei and Fedorova, Natalia and Artemova, Ekaterina and Aldarmaki, Hanan and Kementchedjhieva, Yova},
+  journal={arXiv preprint arXiv:2503.21910},
+  year={2025}
+}
+  </span>
+</p>
+
+<p>
+  <strong>RelUNet: Relative Channel Fusion U-Net for Multichannel Speech Enhancement</strong><br>
+  Ibrahim Aldarmaki, Thamar Solorio, Bhiksha Raj, Hanan Aldarmaki<br>
+  <em>ICASSP, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2410.05019">Preprint</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@article{aldarmaki2024relunet,
+  title={RelUNet: Relative Channel Fusion U-Net for Multichannel Speech Enhancement},
+  author={Aldarmaki, Ibrahim and Solorio, Thamar and Raj, Bhiksha and Aldarmaki, Hanan},
+  journal={arXiv preprint arXiv:2410.05019},
+  year={2024}
+}
+  </span>
+</p>
+
+
+
 ## 2025
 
 
@@ -12,6 +50,23 @@ author_profile: false
   <strong>Uncertainty-driven Partial Diacritization for Arabic Text</strong><br>
   Humaid Alblooshi, Artem Shelmanov, Hanan Aldarmaki<br>
   <em>Second Workshop on Uncertainty-Aware NLP, 2025</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.uncertainlp-main.1.pdf">PDF</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{ali-alblooshi-etal-2025-uncertainty,
+    title = "Uncertainty-driven Partial Diacritization for {A}rabic Text",
+    author = "Ali Alblooshi, Humaid  and
+      Shelmanov, Artem  and
+      Aldarmaki, Hanan",
+    booktitle = "Proceedings of the 2nd Workshop on Uncertainty-Aware NLP (UncertaiNLP 2025)",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.uncertainlp-main.1/",
+    doi = "10.18653/v1/2025.uncertainlp-main.1",
+    pages = "1--10",
+    ISBN = "979-8-89176-349-4"
+}
+  </span>
 </p>
 
 
@@ -19,14 +74,58 @@ author_profile: false
   <strong>NADI 2025: The First Multidialectal Arabic Speech Processing Shared Task</strong><br>
   Bashar Talafha, Hawau Olamide Toyin, Peter Sullivan, AbdelRahim Elmadany, Abdurrahman Juma, Amirbek Djanibekov, Chiyu Zhang, Hamad Alshehhi, Hanan Aldarmaki, Mustafa Jarrar, Nizar Habash, Muhammad Abdul-Mageed<br>
   <em>ArabicNLP, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2509.02038?">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.arabicnlp-sharedtasks.99.pdf">PDF</a> &nbsp;
+  <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://nadi.dlnlp.ai/2025/">Website</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{talafha-etal-2025-nadi,
+    title = "{NADI} 2025: The First Multidialectal {A}rabic Speech Processing Shared Task",
+    author = "Talafha, Bashar  and
+      Toyin, Hawau Olamide  and
+      Sullivan, Peter  and
+      Elmadany, AbdelRahim A.  and
+      Juma, Abdurrahman  and
+      Djanibekov, Amirbek  and
+      Zhang, Chiyu  and
+      Alshehhi, Hamad  and
+      Aldarmaki, Hanan  and
+      Jarrar, Mustafa  and
+      Habash, Nizar  and
+      Abdul-Mageed, Muhammad",
+    booktitle = "Proceedings of The Third Arabic Natural Language Processing Conference: Shared Tasks",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2025.arabicnlp-sharedtasks.99",
+    pages = "720--733",
+    ISBN = "979-8-89176-356-2",
+}
+  </span>
 </p>
 
 <p>
   <strong>SPIRIT: Patching Speech Language Models against Jailbreak Attacks</strong><br>
   Amirbek Djanibekov, Nurdaulet Mukhituly, Kentaro Inui, Hanan Aldarmaki, Nils Lukas<br>
   <em>EMNLP, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.13541">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.emnlp-main.734.pdf">PDF</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/mbzuai-nlp/spirit-breaking">Code</a> &nbsp;
+    <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{djanibekov-etal-2025-spirit,
+    title = "{SPIRIT}: Patching Speech Language Models against Jailbreak Attacks",
+    author = "Djanibekov, Amirbek  and
+      Mukhituly, Nurdaulet  and
+      Inui, Kentaro  and
+      Aldarmaki, Hanan  and
+      Lukas, Nils",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2025.emnlp-main.734",
+    pages = "14503--14520",
+    ISBN = "979-8-89176-332-6"
+}
+ </span>
+
 </p>
 
 
@@ -34,7 +133,29 @@ author_profile: false
   <strong>Voice of a Continent: Mapping Africa's Speech Technology Frontier</strong><br>
   AbdelRahim Elmadany, Sang Yun Kwon, Hawau Olamide Toyin, Alcides Alcoba Inciarte, Hanan Aldarmaki, Muhammad Abdul-Mageed<br>
   <em>EMNLP, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.18436">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.emnlp-main.559.pdf">PDF</a> &nbsp;
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
+  <a class="pub-link" href="https://huggingface.co/spaces/UBC-NLP/SimbaBench">Benchmark</a> &nbsp;
+  <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://africa.dlnlp.ai/simba/">Website</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{elmadany-etal-2025-voice,
+    title = "Voice of a Continent: Mapping {A}frica{'}s Speech Technology Frontier",
+    author = "Elmadany, AbdelRahim A.  and
+      Kwon, Sang Yun  and
+      Toyin, Hawau Olamide  and
+      Alcoba Inciarte, Alcides  and
+      Aldarmaki, Hanan  and
+      Abdul-Mageed, Muhammad",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.559/",
+    doi = "10.18653/v1/2025.emnlp-main.559",
+    pages = "11028--11050",
+    ISBN = "979-8-89176-332-6"
+}
+ </span>
 </p>
 
 
@@ -42,7 +163,7 @@ author_profile: false
   <strong>Exploring Transliteration-Based Zero-Shot Transfer for Amharic ASR</strong><br>
   Hellina Hailu Nigatu, Hanan Aldarmaki<br>
   <em>AfricaNLP, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.africanlp-1.10.pdf">Paper</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.africanlp-1.10.pdf">PDF</a> &nbsp;
   <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/hhnigatu/ASR-via-Translitration">Code</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
@@ -66,7 +187,7 @@ author_profile: false
   <strong>SparQLe: Speech Queries to Text Translation Through LLMs</strong><br>
   Amirbek Djanibekov, Hanan Aldarmaki<br>
   <em>IWSLT, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.iwslt-1.6.pdf">Paper</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.iwslt-1.6.pdf">PDF</a> &nbsp;
   <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/djanibekov/rebooting-llm">Code</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
@@ -90,17 +211,26 @@ author_profile: false
   <strong>Dialectal Coverage And Generalization in Arabic Speech Recognition</strong><br>
   Hawau Olamide Toyin, Amirbek Djanibekov, Raghad Alshalan, Abdullah Alitr, <strong>Hanan Aldarmaki</strong><br>
   <em>ACL, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2411.05872">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2025.acl-long.1427.pdf">PDF</a> &nbsp;
   <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/mbzuai-nlp/ArTST">Code</a> &nbsp;
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
   <a class="pub-link" href="https://huggingface.co/collections/MBZUAI/artst-arabic-text-speech-transformer-672cb44bb4215fd38814aeef">Models</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
-@inproceedings{toyin2023artst,
-  title={ArTST: Arabic Text and Speech Transformer},
-  author={Djanibekov, Amirbek and Toyin, Hawau Olamide and Alshalan, Raghad and Alitr, Abdullah and Aldarmaki, Hanan},
-  booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-  year={2025}
+@inproceedings{djanibekov-etal-2025-dialectal,
+    title = "Dialectal Coverage And Generalization in {A}rabic Speech Recognition",
+    author = "Djanibekov, Amirbek  and
+      Toyin, Hawau Olamide  and
+      Alshalan, Raghad  and
+      Alatir, Abdullah  and
+      Aldarmaki, Hanan",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1427/",
+    doi = "10.18653/v1/2025.acl-long.1427",
+    pages = "29490--29502",
+    ISBN = "979-8-89176-251-0"
 }
   </span>
 </p>
@@ -110,7 +240,7 @@ author_profile: false
   <strong>Clinical Annotations for Automatic Stuttering Severity Assessment</strong><br>
   Ana Rita Valente, Rufael Marew, Hawau Olamide Toyin, Hamdan Al-Ali, Anelise Bohnen, Inma Becerra, Elsa Marta Soares, Goncalo Leal, <strong>Hanan Aldarmaki</strong><br>
   <em>INTERSPEECH, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2506.00644">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://www.isca-archive.org/interspeech_2025/valente25_interspeech.pdf">PDF</a> &nbsp;
   <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/mbzuai-nlp/CASA">Code</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
@@ -127,7 +257,7 @@ author_profile: false
   <strong>ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis</strong><br>
   Hawau Toyin, Rufael Marew, Humaid Alblooshi, Samar Magdy, <strong>Hanan Aldarmaki</strong><br>
   <em>INTERSPEECH, 2025</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2505.20506?">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://www.isca-archive.org/interspeech_2025/toyin25_interspeech.pdf">PDF</a> &nbsp;
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
 <a class="pub-link" href="https://huggingface.co/datasets/MBZUAI/ArVoice">Dataset</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
