@@ -7,8 +7,6 @@ main:
     url: /publications/
   - title: "Datasets"
     url: /datasets/
-  - title: "Courses"
-    url: /courses/
   - title: "Posts"
     url: /posts/
   - title: "About"
