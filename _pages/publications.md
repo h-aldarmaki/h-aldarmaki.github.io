@@ -6,6 +6,27 @@ author_profile: false
 ---
 
 ## 2026
+
+<p>
+  <strong>Morphemes without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLM</strong><br>
+  Yara Alakeel, Chatrine Qwaider, Hanan Aldarmaki, Sawsan Alqahtani<br>
+  <em>LREC, 2026</em>
+</p>
+
+<p>
+  <strong>Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review</strong><br>
+  Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, Zeerak Talat, Hanan Aldarmaki<br>
+  <em>LREC, 2026</em>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2507.07741">Preprint</a> &nbsp;
+</p>
+
+<p>
+  <strong>Are LLMs Good Text Diacritizers? An Arabic and Yorùbá Case Study</strong><br>
+  Hawau Olamide Toyin, Samar M Magdy, Hanan Aldarmaki<br>
+  <em>LREC, 2026</em>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2506.11602">Preprint</a> &nbsp;
+</p>
+
 <p>
   <strong>JEEM: Vision-Language Understanding in Four Arabic Dialects</strong><br>
   Karima Kadaoui, Hanin Atwany, Hamdan Al-Ali, Abdelrahman Mohamed, Ali Mekky, Sergei Tilga, Natalia Fedorova, Ekaterina Artemova, Hanan Aldarmaki, Yova Kementchedjhieva<br>
