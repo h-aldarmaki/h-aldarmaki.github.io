@@ -45,6 +45,26 @@ author_profile: false
 
 ## 2025
 
+<p>
+  <strong>Wordcaster: A Gamified Speech-Based Reading Game for Young Learners Using Real-Time ASR</strong><br>
+  Hamdan Al-Ali, Hanan Aldarmaki<br>
+  <em>International Conference on Education Technology and Computers (ICETC 2025)</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11387586">PDF</a> &nbsp;
+  <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://www.potion.ae/wordcaster">Website</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@INPROCEEDINGS{11387586,
+  author={Al-Ali, Hamdan and Aldarmaki, Hanan},
+  booktitle={2025 International Conference on Education Technology and Computers (ICETC)}, 
+  title={Wordcaster: A Gamified Speech-Based Reading Game for Young Learners Using Real-Time ASR}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={500-504},
+  keywords={Computers;Accuracy;Atmospheric measurements;Education;Games;Particle measurements;Real-time systems;Automatic speech recognition;Game-based learning;Gamification;Automatic speech recognition;Reading fluency},
+  doi={10.1109/ICETC66579.2025.11387586}}
+ </span>
+</p>
 
 <p>
   <strong>Uncertainty-driven Partial Diacritization for Arabic Text</strong><br>
