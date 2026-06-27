@@ -10,10 +10,22 @@ author_profile: true
   <div class="team-member">
     <img src="/assets/images/hamdan.jpg" alt="Hamdan Al-Ali">
     <h2>Hamdan Al-Ali</h2>
-    <p>PhD Student</p>
+    <p>PhD Candidate</p>
     <div class="team-links">
       <a href="https://www.linkedin.com/in/hamdan-hamid-al-ali/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
       <a href="https://www.7amdan.ae/" title="Homepage" target="_blank" class="fas fa-fw fa-home" style="color: Tomato;"></a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <img src="/assets/images/hawau.jpg" alt="Hawau Olamide Toyin">
+    <h2>Hawau Olamide Toyin</h2>
+    <p>PhD Candidate</p>
+    <div class="team-links">
+      <a href="https://theehawau.github.io/" title="Homepage" target="_blank" class="fas fa-fw fa-home" style="color: Tomato;"></a>
+      <a href="https://linkedin.com/in/toyinhawau" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <a href="https://github.com/theehawau" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
+      <a href="https://scholar.google.com/citations?user=JrSN5G0AAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
     </div>
   </div>
 
@@ -28,18 +40,6 @@ author_profile: true
     </div>
   </div>
 
-   <div class="team-member">
-    <img src="/assets/images/hawau.jpg" alt="Hawau Olamide Toyin">
-    <h2>Hawau Olamide Toyin</h2>
-    <p>PhD Student</p>
-    <div class="team-links">
-      <a href="https://theehawau.github.io/" title="Homepage" target="_blank" class="fas fa-fw fa-home" style="color: Tomato;"></a>
-      <a href="https://linkedin.com/in/toyinhawau" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
-      <a href="https://github.com/theehawau" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
-      <a href="https://scholar.google.com/citations?user=JrSN5G0AAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
-    </div>
-  </div>
-
   <div class="team-member">
     <img src="/assets/images/karima.png" alt="Karima Kadaoui">
     <h2>Karima Kadaoui</h2>
@@ -48,17 +48,6 @@ author_profile: true
       <a href="https://www.linkedin.com/in/karima-kadaoui-960923b7/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
       <a href="https://github.com/sqrk" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
       <a href="https://scholar.google.com/citations?user=R1hg4LAAAAAJ" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
-    </div>
-  </div>
-
-  <div class="team-member">
-    <img src="/assets/images/omar.jpeg" alt="Karima Kadaoui">
-    <h2>Omar Kallas</h2>
-    <p>PhD Student</p>
-    <div class="team-links">
-      <a href="https://www.linkedin.com/in/omar-kallas/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
-      <a href="https://github.com/omar-kallas" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
-      <a href="https://scholar.google.com/citations?user=erkQ1UkAAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
     </div>
   </div>
 
@@ -85,15 +74,26 @@ author_profile: true
    <div class="team-member">
     <img src="/assets/images/rufael.JPG" alt="Rufael Marew">
     <h2>Rufael Marew</h2>
-    <p>Research Assistant</p>
+    <p>Research Engineer</p>
     <div class="team-links">
       <a href="https://www.linkedin.com/in/rufael-marew/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
       <a href="https://github.com/rufaelfekadu" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
       <a href="https://scholar.google.com/citations?user=h0eAwj8AAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
     </div>
   </div>
+   <div class="team-member">
+    <img src="/assets/images/shahd.jpg" alt="Shahd Dibas">
+    <h2>Shahd Dibas</h2>
+    <p>Research Engineer</p>
+    <div class="team-links">
+      <a href="https://www.linkedin.com/in/shahd-dibas-6a587177/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=XsIGpfIAAAAJ" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
+    </div>
+  </div>
 
-  <div class="team-member">
+
+
+  <!-- <div class="team-member">
     <img src="/assets/images/Maha.jpg" alt="Maha Agro">
     <h2>Maha Tufail Agro</h2>
     <p>Research Assistant</p>
@@ -103,7 +103,7 @@ author_profile: true
       <a href="https://scholar.google.com/citations?user=FXJzma8AAAAJ&hl=en" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
       <a href="https://bsky.app/profile/mahaagro.bsky.social" title="scholar" target="_blank" class="fa-brands fa-bluesky" style="color: #4285F4;"></a>
     </div>
-  </div>
+  </div> -->
 
 </div>
 

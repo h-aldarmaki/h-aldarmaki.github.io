@@ -8,40 +8,171 @@ author_profile: false
 ## 2026
 
 <p>
-  <strong>Morphemes without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLM</strong><br>
+  <strong>What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR</strong><br>
+  Hawau Olamide Toyin, Srinivasan Umesh, Hanan Aldarmaki<br>
+  <em>INTERSPEECH, 2026</em><br>
+</p>
+
+<p>
+  <strong>Constrained CTC Decoding for Efficient Diacritic Restoration</strong><br>
+  Rufael Marew, Amr Keleg, Hanan Aldarmaki<br>
+  <em>INTERSPEECH, 2026</em><br>
+</p>
+
+<p>
+  <strong>Personal Attribute Leakage in Federated Speech Models</strong><br>
+  Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, Zeerak Talat, Hanan Aldarmaki<br>
+  <em>INTERSPEECH, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2510.13357">Preprint</a> &nbsp;
+</p>
+
+<p>
+  <strong>Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines</strong><br>
+  Hawau Olamide Toyin, Mutiah Apampa, Toluwani Aremu, Humaid Alblooshi, Ana Rita Valente, Gonçalo Leal, Zhengjun Yue, Zeerak Talat, Hanan Aldarmaki<br>
+  <em>INTERSPEECH, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="">Paper</a> &nbsp;
+</p>
+
+
+<p>
+  <strong>KSAA-2026 Shared Task on Arabic Speech Dictation with Automatic Diacritization</strong><br>
+  <em>The 7th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT7)</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="http://www.lrec-conf.org/proceedings/lrec2026/workshops/osact/pdf/2026.osact-1.28.pdf">Paper</a> &nbsp;
+    <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://arai.ksaa.gov.sa/sharedTask2026/">Website</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{alwazrah-etal-2026-ksaa,
+  title = {KSAA-2026 Shared Task on Arabic Speech Dictation with Automatic Diacritization },
+  author = {Al Wazrah, Asma Ali and Alshammari, Waad and Almatham, Rawan and Al-rasheed, Raghad and Altamimi, Afrah Abdulaziz and Marew, Rufael and Alqahtani, Sawsan and Aldarmaki, Hanan and Alharbi, Abdullah I. and Alshehri, Abdulrahman Saeed and Assar, Mohamed and Almazrua, Amal and Alosaimy, Abdulrahman},
+  booktitle = {The 7th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT7) with 5 Shared Tasks},
+  month = {May},
+  year = {2026},
+  pages = {220--224},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  doi = {10.63317/33hmmyfpg7mx},
+}
+  </span>
+</p>
+
+
+<p>
+  <strong>Unrequited Emotions: Investigating the Gaps in Motivation and Practice in Speech Emotion Recognition Research</strong><br>
+  Taryn Wong, Zeerak Talat, Hanan Aldarmaki, Anjalie Field<br>
+  <em>Proceedings of Computational Affective Science (CAS) @ LREC 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="http://www.lrec-conf.org/proceedings/lrec2026/workshops/cas/pdf/2026.cas-1.6.pdf">Paper</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{wong-etal-2026-unrequited,
+  title = {Unrequited Emotions: Investigating the Gaps in Motivation and Practice in Speech Emotion Recognition Research },
+  author = {Wong, Taryn and Talat, Zeerak and Aldarmaki, Hanan and Field, Anjalie},
+  booktitle = {Proceedings of Computational Affective Science (CAS) @ LREC 2026},
+  month = {May},
+  year = {2026},
+  pages = {57--73},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  doi = {10.63317/42e4sre4izeu},
+}
+  </span>
+</p>
+
+
+<p>
+  <strong>Morphemes without Borders: Evaluating Root–Pattern Morphology in Arabic Tokenizers and LLMs</strong><br>
   Yara Alakeel, Chatrine Qwaider, Hanan Aldarmaki, Sawsan Alqahtani<br>
-  <em>LREC, 2026</em>
+  <em>LREC, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.923.pdf">Paper</a> &nbsp;
+  <i class="fab fa-github"></i> <a class="pub-link" href="https://github.com/YaraAlakeel/morphems_without_borders">Code</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{alakeel-etal-2026-morphemes,
+  title = {Morphemes without Borders: Evaluating Root–Pattern Morphology in Arabic Tokenizers and LLMs},
+  author = {Alakeel, Yara Yousif and Qwaider, Chatrine and Aldarmaki, Hanan and Alqahtani, Sawsan},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {11787--11799},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/3bk9j7feheoq}
+}
+  </span>
 </p>
 
 <p>
   <strong>Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review</strong><br>
   Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, Zeerak Talat, Hanan Aldarmaki<br>
-  <em>LREC, 2026</em>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2507.07741">Preprint</a> &nbsp;
+  <em>LREC, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.768.pdf">Paper</a> &nbsp;
+    <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{agro-etal-2026-code,
+  title = {Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review},
+  author = {Agro, Maha Tufail and Kulkarni, Atharva A. and Kadaoui, Karima and Talat, Zeerak and Aldarmaki, Hanan},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {9790--9812},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/477upr9ikf9n}
+}
+  </span>
 </p>
 
 <p>
   <strong>Are LLMs Good Text Diacritizers? An Arabic and Yorùbá Case Study</strong><br>
   Hawau Olamide Toyin, Samar M Magdy, Hanan Aldarmaki<br>
-  <em>LREC, 2026</em>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2506.11602">Preprint</a> &nbsp;
+  <em>LREC, 2026</em><br>
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.40.pdf">Paper</a> &nbsp;
+  <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+  <span class="bibtex-box">
+@inproceedings{toyin-etal-2026-are,
+  title = {Are LLMs Good Text Diacritizers? An Arabic and Yoruba Case Study},
+  author = {Toyin, Hawau Olamide and Magdy, Samar Mohamed and Aldarmaki, Hanan},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {580--589},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/5cm5exvnmd9r}
+}
+  </span>
 </p>
 
 <p>
   <strong>JEEM: Vision-Language Understanding in Four Arabic Dialects</strong><br>
   Karima Kadaoui, Hanin Atwany, Hamdan Al-Ali, Abdelrahman Mohamed, Ali Mekky, Sergei Tilga, Natalia Fedorova, Ekaterina Artemova, Hanan Aldarmaki, Yova Kementchedjhieva<br>
   <em>EACL, 2026</em><br>
-  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2503.21910">Preprint</a> &nbsp;
+  <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://aclanthology.org/2026.findings-eacl.18.pdf">Paper</a> &nbsp;
   <i class="fa-solid fa-globe"></i> <a class="pub-link" href="https://toloka.ai/jeem-benchmark">Website</a> &nbsp;
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" style="height: 1em; vertical-align: middle; margin-right: 4px;">
   <a class="pub-link" href="https://huggingface.co/datasets/toloka/JEEM">Dataset</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
-@article{kadaoui2025jeem,
-  title={Jeem: Vision-language understanding in four arabic dialects},
-  author={Kadaoui, Karima and Atwany, Hanin and Al-Ali, Hamdan and Mohamed, Abdelrahman and Mekky, Ali and Tilga, Sergei and Fedorova, Natalia and Artemova, Ekaterina and Aldarmaki, Hanan and Kementchedjhieva, Yova},
-  journal={arXiv preprint arXiv:2503.21910},
-  year={2025}
+@inproceedings{kadaoui-etal-2026-jeem,
+    title = "{JEEM}: Vision-Language Understanding in Four {A}rabic Dialects",
+    author = "Kadaoui, Karima  and
+      Atwany, Hanin  and
+      Al-Ali, Hamdan  and
+      Mohamed, Abdelrahman  and
+      Mekky, Ali  and
+      Tilga, Sergei  and
+      Fedorova, Natalia  and
+      Artemova, Ekaterina  and
+      Aldarmaki, Hanan  and
+      Kementchedjhieva, Yova",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EACL} 2026",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    url = "https://aclanthology.org/2026.findings-eacl.18/",
+    doi = "10.18653/v1/2026.findings-eacl.18"
 }
   </span>
 </p>
@@ -50,14 +181,17 @@ author_profile: false
   <strong>RelUNet: Relative Channel Fusion U-Net for Multichannel Speech Enhancement</strong><br>
   Ibrahim Aldarmaki, Thamar Solorio, Bhiksha Raj, Hanan Aldarmaki<br>
   <em>ICASSP, 2026</em><br>
+    <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://ieeexplore.ieee.org/document/11461436">Paper</a> &nbsp;
   <i class="fas fa-file-pdf"></i> <a class="pub-link" href="https://arxiv.org/pdf/2410.05019">Preprint</a> &nbsp;
   <i class="fas fa-quote-right"></i> <span class="bibtex-toggle pub-link" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
   <span class="bibtex-box">
-@article{aldarmaki2024relunet,
-  title={RelUNet: Relative Channel Fusion U-Net for Multichannel Speech Enhancement},
+@INPROCEEDINGS{aldarmaki-etal-2026-relunet,
   author={Aldarmaki, Ibrahim and Solorio, Thamar and Raj, Bhiksha and Aldarmaki, Hanan},
-  journal={arXiv preprint arXiv:2410.05019},
-  year={2024}
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={RelUNet: Relative Channel Fusion U-Net for Multichannel Speech Enhancement}, 
+  year={2026},
+  pages={21031-21035},
+  doi={10.1109/ICASSP55912.2026.11461436}
 }
   </span>
 </p>
