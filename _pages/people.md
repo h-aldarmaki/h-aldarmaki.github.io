@@ -8,6 +8,17 @@ author_profile: true
 <div class="team-grid">
 
   <div class="team-member">
+    <img src="/assets/images/Injy.jpeg" alt="Hamdan Al-Ali">
+    <h2>Injy Hamed</h2>
+    <p>Postdoctoral Associate</p>
+    <div class="team-links">
+      <a href="https://www.linkedin.com/in/injy-khairy-hamed-a41b09bb/" title="LinkedIn" target="_blank" class="fab fa-fw fa-linkedin"  style="color: #0A66C2;"></a>
+      <a href="https://github.com/injy-hamed" title="GitHub" target="_blank" class="fab fa-fw fa-github" style="color: Black;"></a>
+      <a href="https://scholar.google.com/citations?user=N_RhXusAAAAJ&hl=en&oi=ao" title="scholar" target="_blank" class="fa-brands fa-google-scholar" style="color: #4285F4;"></a>
+    </div>
+  </div>
+
+  <div class="team-member">
     <img src="/assets/images/hamdan.jpg" alt="Hamdan Al-Ali">
     <h2>Hamdan Al-Ali</h2>
     <p>PhD Candidate</p>
